@@ -1,0 +1,66 @@
+.yes{background-color:#3edc ;}
+
+
+.header{background-color:#45df;
+display: flex;
+justify-content: space-between;}
+
+.header a{
+    color:black;
+}
+
+.main{background-color:#3edc;
+}
+
+.main img{
+  width: 310px;
+
+}
+
+.yes img{
+    width:310px;
+}
+
+a:link{
+    color:black;
+}
+
+a:visited{
+    color:orange;
+}
+
+.item{
+    
+    position: relative;
+    
+}
+
+.item h2{color:red;
+    position: absolute;
+    top:70%;
+    left:10%;
+    transform: translate(-50%,-50%);
+    opacity:0;
+}
+
+.item:hover h2{
+    opacity:1;
+}
+
+.item:hover img{
+    opacity:0.4;
+}
+
+.main h2{
+
+    position:absolute;
+    top: 30%;
+    left: 8%;
+    transform: translate(-50%,-50%);
+    opacity:0;
+   
+}
+
+
+
+
